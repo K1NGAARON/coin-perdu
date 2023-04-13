@@ -25,7 +25,7 @@
     height: 100%;
 }
 
-.banner .container {
+.section:not(.header) .container {
     display: flex;
     flex-flow: column;
     align-items: center;
@@ -36,19 +36,19 @@
     z-index: 10;
 }
 
-.banner .container .box {
+.section:not(.header) .container .box {
     display: flex;
     flex-flow: row wrap;
     gap: 40px;
 }
 
-.banner .container .item {
+.section:not(.header) .container .item {
     flex: 1 0;
     display: flex;
     flex-direction: column;
 }
 
-.banner .container .item ul {
+.section:not(.header) .container .item ul {
     display: flex;
     flex-direction: column;
     gap: 20px;
