@@ -35,6 +35,7 @@
     padding: 20px 30px;
     margin: 0 auto;
     background-color: transparent;
+    z-index: 99;
 }
 
 .header .logo,
