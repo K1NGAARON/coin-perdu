@@ -85,3 +85,21 @@
 .section .row.mw-960 {
     max-width: 960px;
 }
+
+.wrapper.information {
+    gap: 20px;
+}
+
+.wrapper.information .item {
+    flex: 1 0 30%
+}
+
+.wrapper.information .item ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.transparent {
+    visibility: hidden;
+}
