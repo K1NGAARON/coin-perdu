@@ -57,3 +57,13 @@
 
     padding-left: 30px;
 }
+
+.pricing-table {
+    width: 100%;
+    border-spacing: 20px;
+}
+
+.pricing-table th {
+    font-weight: 700;
+    text-align: left;
+}
