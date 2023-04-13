@@ -3,6 +3,10 @@
     height: auto;
 }
 
+.footer .logo {
+    width: 200px;
+}
+
 .banner {
     background-image: url('/home/img/banner.jpg');
     background-repeat: no-repeat;
