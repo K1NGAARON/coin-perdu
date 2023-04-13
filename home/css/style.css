@@ -30,10 +30,12 @@
     flex-flow: column;
     align-items: center;
     gap: 40px;
-
     padding: 30px;
-    background-color: var(--white);
     z-index: 10;
+}
+
+.banner .container {
+    background-color: var(--white);
 }
 
 .section:not(.header) .container .box {
