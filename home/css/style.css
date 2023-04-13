@@ -67,3 +67,21 @@
     font-weight: 700;
     text-align: left;
 }
+
+.wrapper.gallery {
+    gap: 40px;
+    justify-content: center;
+}
+
+.wrapper.gallery .item {
+    flex: 0 1 40%;
+    align-items: center;
+}
+
+.wrapper.gallery .item:nth-child(1) {
+    margin-top: -40vh;
+}
+
+.section .row.mw-960 {
+    max-width: 960px;
+}
