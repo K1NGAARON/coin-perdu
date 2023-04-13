@@ -17,6 +17,7 @@
 
 .banner .row {
     padding: 60px 30px;
+    z-index: 99;
 }
 
 .banner .overlay {
