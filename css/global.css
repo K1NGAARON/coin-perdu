@@ -71,7 +71,7 @@ ol {
     padding-left: 20px;
 }
 
-.small-image {
+img.small-image {
     width: 40%;
 }
 
@@ -79,11 +79,11 @@ ol {
     align-self: flex-end;
 }
 
-.white {
+p.white {
     color: var(--white);
 }
 
-.center {
+p.center {
     text-align: center;
 }
 
