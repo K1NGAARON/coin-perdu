@@ -117,6 +117,26 @@
     margin: 30px auto;
 }
 
+.made-by {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0 auto;
+}
+
+.made-by p,
+.made-by a {
+    color: var(--white);
+    opacity: 0.7;
+    transition: var(--transition);
+}
+
+.made-by a:hover {
+    opacity: 1;
+    transition: var(--transition);
+}
+
 @media (max-width: 560px) {
     .header .row {
         display: none;
