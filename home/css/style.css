@@ -116,6 +116,14 @@
 }
 
 @media (max-width: 560px) {
+    .banner {
+        height: 75vh;
+    }
+
+    .banner .row {
+        height: 100%;
+    }
+
     .banner .logo {
         display: none;
     }

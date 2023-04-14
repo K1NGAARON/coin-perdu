@@ -285,6 +285,10 @@ p.center {
     .section .row .col {
         flex: 1 0 100%;
     }
+
+    .form-wrapper input {
+        background-color: var(--white);
+    }
 }
 
 @media (max-width: 1000px) {
