@@ -104,3 +104,13 @@
 .transparent {
     visibility: hidden;
 }
+
+.footer .mail {
+    color: var(--white);
+    transition: var(--transition);
+}
+
+.footer .mail:hover {
+    text-decoration: underline;
+    transition: var(--transition);
+}
