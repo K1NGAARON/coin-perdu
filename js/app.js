@@ -1,5 +1,3 @@
-import $ from 'jquery';
-
 // STICKY LARGE MENU
 $(document).scroll(function () {
     const header = $('.header');
