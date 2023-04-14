@@ -114,3 +114,38 @@
     text-decoration: underline;
     transition: var(--transition);
 }
+
+@media (max-width: 560px) {
+    .banner .logo {
+        display: none;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    .section .row {
+        padding: 30px;
+    }
+
+    .wrapper.gallery .item:nth-child(1) {
+        margin-top: 0;
+    }
+
+    .slider .row {
+        margin: 0 auto;
+    }
+
+    .section .pricing-table {
+        border-spacing: 5px;
+    }
+
+    .section .pricing-table th,
+    .section .pricing-table td {
+        font-size: 14px;
+    }
+}
