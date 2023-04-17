@@ -37,19 +37,19 @@ h3 {
 }
 
 h1 {
-    font-size: 42px;
-}
-
-h2 {
     font-size: 36px;
 }
 
+h2 {
+    font-size: 28px;
+}
+
 h3 {
-    font-size: 32px;
+    font-size: 24px;
 }
 
 h4 {
-    font-size: 22px;
+    font-size: 20px;
 }
 
 a {

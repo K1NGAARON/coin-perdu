@@ -32,7 +32,7 @@
     min-height: unset;
     align-items: center;
     justify-content: center;
-    padding: 20px 30px;
+    padding: 30px;
     margin: 0 auto;
     background-color: transparent;
     z-index: 99;
@@ -117,6 +117,27 @@
     justify-content: space-between;
     align-items: center;
     margin: 30px auto;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.socials {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.socials img {
+    max-width: 30px;
+    transition: var(--transition);
+}
+
+.socials img:hover {
+    transform: scale(1.10);
+    transition: var(--transition);
 }
 
 .made-by {
