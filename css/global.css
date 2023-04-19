@@ -144,6 +144,19 @@ p.center {
     padding: 0 60px;
 }
 
+.section .row.full {
+    max-width: none;
+    padding: 0;
+}
+
+.section .row.full .pl {
+    padding-left: 60px;
+}
+
+.section .row.full .pr {
+    padding-right: 60px;
+}
+
 .section .row.flex-col.align-start {
     align-items: flex-start;
 }
@@ -159,6 +172,7 @@ p.center {
 .section .row.flex-col {
     flex-direction: column;
     align-items: center;
+    padding: 0 30px;
 }
 
 .section .row .col {
@@ -167,6 +181,7 @@ p.center {
     display: flex;
     flex-direction: column;
     gap: 50px;
+    /* padding: 0 30px; */
 }
 
 .section .row .col.gap-20 {
