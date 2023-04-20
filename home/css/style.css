@@ -135,6 +135,10 @@
     padding-left: 60px;
 }
 
+.section .row .col.pr-60 {
+    padding-right: 60px;
+}
+
 .calendar {
     width: 100%;
 }
