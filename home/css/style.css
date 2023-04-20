@@ -135,6 +135,14 @@
     padding-left: 60px;
 }
 
+.calendar {
+    width: 100%;
+}
+
+.calendar h1 {
+    display: none;
+}
+
 @media (max-width: 560px) {
     .banner {
         height: 75vh;
