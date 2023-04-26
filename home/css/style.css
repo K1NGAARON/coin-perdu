@@ -1,6 +1,7 @@
 .section .logo {
     width: 20%;
     height: auto;
+    margin-top: 40px;
 }
 
 .footer .logo {
@@ -10,9 +11,18 @@
 .banner {
     background-image: url('/home/img/banner.jpg');
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position: center center;
     background-size: cover;
     position: relative;
+}
+
+.banner.section .row.flex-col {
+    justify-content: space-between;
+}
+
+.banner,
+.banner .row {
+    height: 90vh;
 }
 
 .banner .row {
@@ -22,7 +32,7 @@
 
 .banner .overlay {
     background-color: var(--white);
-    opacity: 0.35;
+    opacity: 0.65;
     height: 100%;
 }
 
@@ -61,7 +71,7 @@
 
 .pricing-table {
     width: 100%;
-    border-spacing: 20px;
+    /* border-spacing: 20px; */
 }
 
 .pricing-table th {
