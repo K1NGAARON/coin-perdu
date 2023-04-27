@@ -322,6 +322,21 @@ p.center {
 @media (max-width: 560px) {
     .section .row .col {
         flex: 1 0 100%;
+        /* padding: 0 30px; */
+        gap: 20px;
+    }
+
+    .section .row {
+        gap: 20px;
+        padding: 0 30px;
+    }
+
+    .section .row.flex-col {
+        padding: 0 30px;
+    }
+
+    .section .row.full {
+        padding: 0 30px;
     }
 
     .form-wrapper input {

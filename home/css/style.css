@@ -213,8 +213,9 @@
 }
 
 @media (max-width: 560px) {
-    .banner {
-        height: 75vh;
+    .banner,
+    .banner .row {
+        height: 90vh;
     }
 
     .banner .row {
@@ -237,10 +238,6 @@
         padding: 30px;
     }
 
-    /* .wrapper.gallery .item:nth-child(1) {
-        margin-top: 0;
-    } */
-
     .slider .row {
         margin: 0 auto;
     }
@@ -252,5 +249,65 @@
     .section .pricing-table th,
     .section .pricing-table td {
         font-size: 14px;
+    }
+
+    .section .logo {
+        margin-top: 0;
+    }
+
+    .banner.section .row.flex-col {
+        justify-content: flex-end;
+    }
+
+    .section .row .col.pr-60 {
+        padding-right: 30px;
+    }
+
+    .section .row .col.pl-120 {
+        padding-left: 30px;
+    }
+
+    .section .row.full .pl {
+        padding-left: 30px;
+    }
+
+    .section .row .col.pt-60 {
+        padding-top: 0;
+    }
+
+    .row.relative .btn.absolute {
+        display: none;
+    }
+
+    .section .row .col.pl-60 {
+        padding-left: 30px;
+    }
+
+    .section .row .col.pr {
+        padding-right: 30px;
+    }
+
+    .section .row.gallery .wrapper .item {
+        flex: 0 1 25%;
+    }
+
+    .section .row.pd-60 {
+        padding: 0 30px;
+    }
+
+    .wrapper.images .item:nth-child(1) {
+        flex: 1 0 100%;
+    }
+
+    .wrapper.images .item:nth-child(2) {
+        flex: 1 0 100%
+    }
+
+    .section.slider {
+        display: none;   
+    }
+
+    .section .row.full .pl {
+        padding-left: 0;
     }
 }
