@@ -212,6 +212,10 @@
     display: none;
 }
 
+p.mb-40 {
+    margin-bottom: -40px;
+}
+
 @media (max-width: 560px) {
     .banner,
     .banner .row {
@@ -309,5 +313,9 @@
 
     .section .row.full .pl {
         padding-left: 0;
+    }
+
+    p.mb-40 {
+        margin-bottom: 0;
     }
 }
