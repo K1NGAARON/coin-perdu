@@ -272,7 +272,7 @@ p.mb-40 {
     }
 
     .section .row.full .pl {
-        padding-left: 30px;
+        padding-left: 0;
     }
 
     .section .row .col.pt-60 {
@@ -284,11 +284,11 @@ p.mb-40 {
     }
 
     .section .row .col.pl-60 {
-        padding-left: 30px;
+        padding-left: 0;
     }
 
     .section .row .col.pr {
-        padding-right: 30px;
+        padding-right: 0;
     }
 
     .section .row.gallery .wrapper .item {
