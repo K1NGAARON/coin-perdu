@@ -176,6 +176,10 @@
     padding-top: 60px;
 }
 
+.section .row.pt-60 {
+    padding-top: 60px;
+}
+
 .wrapper.images .item img {
     width: 100%;
 }
