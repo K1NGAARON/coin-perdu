@@ -219,7 +219,7 @@ p.mb-40 {
 @media (max-width: 560px) {
     .banner,
     .banner .row {
-        height: 90vh;
+        height: 100vh;
     }
 
     .banner .row {
@@ -317,5 +317,9 @@ p.mb-40 {
 
     p.mb-40 {
         margin-bottom: 0;
+    }
+
+    .section:not(.header) .container {
+        gap: 20px;
     }
 }
