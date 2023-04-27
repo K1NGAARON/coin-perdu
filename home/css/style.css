@@ -264,11 +264,11 @@ p.mb-40 {
     }
 
     .section .row .col.pr-60 {
-        padding-right: 30px;
+        padding-right: 0;
     }
 
     .section .row .col.pl-120 {
-        padding-left: 30px;
+        padding-left: 0;
     }
 
     .section .row.full .pl {
