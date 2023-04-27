@@ -168,8 +168,16 @@
     margin-bottom: 0;
 }
 
+.section .row.mb-0 {
+    margin-bottom: 0;
+}
+
 .section .row .col.pt-60 {
     padding-top: 60px;
+}
+
+.section .row .col.pl-120 {
+    padding-left: 120px;
 }
 
 .section .row .col.pl-60 {
