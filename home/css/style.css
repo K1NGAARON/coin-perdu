@@ -185,6 +185,10 @@
     padding-top: 60px;
 }
 
+.section .row .col.pt-120 {
+    padding-top: 120px;
+}
+
 .section .row.pt-60 {
     padding-top: 60px;
 }
@@ -195,6 +199,10 @@
 
 .wrapper.images .item:nth-child(1) {
     flex: 1 0;
+}
+
+.section .row .col.pl-90 {
+    padding-left: 90px;
 }
 
 .wrapper.images .item:nth-child(2) {
@@ -276,7 +284,8 @@ p.mb-40 {
         padding-right: 0;
     }
 
-    .section .row .col.pl-120 {
+    .section .row .col.pl-120,
+    .section .row .col.pl-90 {
         padding-left: 0;
     }
 
@@ -284,7 +293,8 @@ p.mb-40 {
         padding-left: 0;
     }
 
-    .section .row .col.pt-60 {
+    .section .row .col.pt-60,
+    .section .row .col.pt-120 {
         padding-top: 0;
     }
 
