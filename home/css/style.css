@@ -33,6 +33,10 @@
     padding: 0 60px;
 }
 
+.section .row.pd-90 {
+    padding: 0 90px;
+}
+
 .banner,
 .banner .row {
     height: 90vh;
@@ -229,6 +233,14 @@
     display: none;
 }
 
+.section .row .col.flex-40 {
+    flex: 1 0 40%;
+}
+
+.section .row .col.flex-55 {
+    flex: 1 0 55%;
+}
+
 p.mb-40 {
     margin-bottom: -40px;
 }
@@ -314,7 +326,8 @@ p.mb-40 {
         flex: 0 1 25%;
     }
 
-    .section .row.pd-60 {
+    .section .row.pd-60,
+    .section .row.pd-90 {
         padding: 0 30px;
     }
 
