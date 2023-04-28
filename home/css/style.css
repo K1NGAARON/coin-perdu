@@ -177,6 +177,10 @@
     margin-bottom: 0;
 }
 
+#huis.section:not(.header) .container {
+    padding-top: 20px;
+}
+
 .section .row .col.pt-60 {
     padding-top: 60px;
 }
@@ -190,11 +194,11 @@
 }
 
 .wrapper.images .item:nth-child(1) {
-    flex: 1 0 55%;
+    flex: 1 0;
 }
 
 .wrapper.images .item:nth-child(2) {
-    flex: 1 0 40%;
+    flex: 1 0;
 }
 
 .section .row .col.pl-120 {

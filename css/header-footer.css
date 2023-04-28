@@ -101,6 +101,10 @@
 .header.active .nav::before {
     background-color: var(--black);
 }
+
+.header.active .row {
+    padding: 30px;
+}
   
 .header .nav:hover::before {
     transform: scaleX(1);
