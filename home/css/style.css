@@ -252,7 +252,7 @@ p.mb-40 {
 @media (max-width: 560px) {
     .banner,
     .banner .row {
-        height: 100vh;
+        height: fit-content;
     }
 
     .banner .row {
