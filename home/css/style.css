@@ -1,5 +1,5 @@
 .section .logo {
-    width: 30%;
+    width: 40%;
     height: auto;
     margin-top: 100px;
 }
@@ -40,7 +40,7 @@
 
 .banner,
 .banner .row {
-    height: 90vh;
+    height: 95vh;
 }
 
 .banner .row {
@@ -193,6 +193,10 @@
     padding-top: 60px;
 }
 
+.section .row .col.pt-90 {
+    padding-top: 90px;
+}
+
 .section .row .col.pt-120 {
     padding-top: 120px;
 }
@@ -207,6 +211,7 @@
 
 .wrapper.images .item:nth-child(1) {
     flex: 1 0;
+    justify-content: flex-end;
 }
 
 .section .row .col.pl-90 {
@@ -310,7 +315,8 @@ p.mb-40 {
     }
 
     .section .row .col.pt-60,
-    .section .row .col.pt-120 {
+    .section .row .col.pt-120,
+    .section .row .col.pt-90 {
         padding-top: 0;
     }
 
